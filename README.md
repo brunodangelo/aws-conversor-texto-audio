@@ -7,10 +7,10 @@ Aplicación serverless utilizada para convertir texto a audio, empleando los ser
 **Paso 1:** Crear los Buckets de destino y origen\
 
 **Paso 2:** Crear Politica IAM\
--Asociar las acciones: GetObject y PutObject para el servicio de S3 (asignando a los buckets creados en el primer paso). Y para Polly asociar la accion SynthesizeSpeech.\
+-Asociar las acciones: GetObject y PutObject para el servicio de S3 (asignando a los buckets creados en el primer paso). Y para Polly asociar la accion SynthesizeSpeech.
 
 **Paso 3:** Crear Rol IAM\
--A la politica creada en el paso anterior, asignarla al un nuevo rol (el servicio que la utiliza es Lambda).\
+-A la politica creada en el paso anterior, asignarla al un nuevo rol (el servicio que la utiliza es Lambda).
 
 **Paso 4:** Creacion de la Función Lambda\
 -El lenguage utilizado es Python y se le debe asignar el rol creado en el paso 3.\
