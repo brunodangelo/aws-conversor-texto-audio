@@ -7,7 +7,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 def lambda_handler(event, context):
-	# Inicializamos S3 y Polly
+	# Inicializacion S3 y Polly
 	s3 = boto3.client(‘s3’)
 	polly = boto3.client(‘polly’)
 
