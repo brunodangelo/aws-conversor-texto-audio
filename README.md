@@ -1,4 +1,4 @@
-# aws-conversor-texto-audio
+# Aplicación Serverless en AWS (CONVERSOR DE TEXTO A AUDIO) con S3, Lambda y Polly
 Aplicación serverless utilizada para convertir texto a audio, empleando los servicios S3, Lambda (Python) y Polly de AWS.
 
 **EXPLICACION DETALLADA PASO A PASO:** https://todotelco.com/proyecto-aws-aplicacion-serverless-para-convertir-texto-a-audio-utilizando-s3-lambda-polly-y-python
