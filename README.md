@@ -3,6 +3,7 @@ Aplicación serverless utilizada para convertir texto a audio, empleando los ser
 
 **EXPLICACION DETALLADA PASO A PASO:** https://todotelco.com/proyecto-aws-aplicacion-serverless-para-convertir-texto-a-audio-utilizando-s3-lambda-polly-y-python
 
+![Proyecto AWS Bruno.](https://todotelco.com/wp-content/uploads/2025/01/aws-conversor-texto-audio.png)
 
 **Paso 1:** Crear los Buckets de destino y origen
 
