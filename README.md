@@ -4,7 +4,7 @@ Aplicación serverless utilizada para convertir texto a audio, empleando los ser
 **EXPLICACION DETALLADA PASO A PASO:** https://todotelco.com/proyecto-aws-aplicacion-serverless-para-convertir-texto-a-audio-utilizando-s3-lambda-polly-y-python
 
 
-**Paso 1:** Crear los Buckets de destino y origen\
+**Paso 1:** Crear los Buckets de destino y origen
 
 **Paso 2:** Crear Politica IAM\
 -Asociar las acciones: GetObject y PutObject para el servicio de S3 (asignando a los buckets creados en el primer paso). Y para Polly asociar la accion SynthesizeSpeech.
