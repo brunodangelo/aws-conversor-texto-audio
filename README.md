@@ -16,8 +16,8 @@ Aplicación serverless utilizada para convertir texto a audio, empleando los ser
 -El lenguage utilizado es Python y se le debe asignar el rol creado en el paso 3.\
 -Tambien crear 2 variables de entorno para los nombres de los buckets (BUCKET_ORIGEN y BUCKET_DESTINO).\
 -Luego pegar el codigo "conversor.py" dentro de la función Lambda creada y Deploy.\
--Finalmente crear un Evento "desencadenador" o trigger (asociandolo al bucket origen S3), para ejecutar la función cuando se sube un archivo .txt.\
+-Finalmente crear un Evento "desencadenador" o trigger (asociandolo al bucket origen S3), para ejecutar la función cuando se sube un archivo .txt.
 
-**Paso 5:** Probar la aplicación\
+**Paso 5:** Probar la aplicación
 
 **EXPLICACION DETALLADA PASO A PASO:** https://todotelco.com/proyecto-aws-aplicacion-serverless-para-convertir-texto-a-audio-utilizando-s3-lambda-polly-y-python
